@@ -1,4 +1,4 @@
-.App {
+body {
   min-height: 100vh;
   background-color: #818fdd;
   background-image: radial-gradient(
@@ -67,6 +67,10 @@ h2 {
 @media (max-width: 576px) {
   ul{
     flex-direction: column;
+    
+  }
+  .Btn{
+    width: 50%;
   }
   h2 {
     color: rgb(4, 199, 248);
