@@ -18,7 +18,7 @@ const StyledButton = styled.button`
   padding: 10px, 24px, 10px, 24px;
   gap: 10px;
 
-  position: absolute;
+  
   width: 380px;
   height: 50px;
   left: 850px;
@@ -49,7 +49,7 @@ const StyledButton2 = styled.button`
   padding: 10px, 24px, 10px, 24px;
   gap: 10px;
 
-  position: absolute;
+  
   width: 380px;
   height: 50px;
   left: 450px;
@@ -80,7 +80,7 @@ const StyledButton3 = styled.button`
   padding: 10px, 24px, 10px, 24px;
   gap: 10px;
 
-  position: absolute;
+ 
   width: 380px;
   height: 50px;
   left: 50px;

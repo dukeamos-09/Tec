@@ -14,9 +14,6 @@
     radial-gradient(at 53% 75%, hsla(174, 94%, 68%, 1) 0, transparent 45%);
 }
 
-
-
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -38,12 +35,10 @@
   justify: center;
   items: center;
   margin: 1em;
-  
- 
+
   padding: 1em;
 
   cursor: pointer;
-   
 }
 
 h1 {
@@ -51,13 +46,29 @@ h1 {
 }
 
 .Btn:hover {
-   background-color: rgb(214, 162, 82);
+  background-color: rgb(214, 162, 82);
 }
 
-.Btn:focus,.Btn:active {
-   background-color: rgb(146, 76, 76);
+.Btn:focus,
+.Btn:active {
+  background-color: rgb(179, 178, 133);
 }
 
-h2{
+ul{
+  display: flex;
+  flex: row;
+  
+}
+
+h2 {
   color: rgb(4, 248, 77);
+}
+
+@media (max-width: 576px) {
+  ul{
+    flex-direction: column;
+  }
+  h2 {
+    color: rgb(4, 199, 248);
+  }
 }
